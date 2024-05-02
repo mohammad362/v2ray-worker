@@ -33,3 +33,4 @@ jobs:
       run: |
         sed -i s/KV_NAME/${{ secrets.KV_NAME }}/g wrangler.toml
         wrangler publish --api-token ${{ secrets.CF_API_TOKEN }}
+\
